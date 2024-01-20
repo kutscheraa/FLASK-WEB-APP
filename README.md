@@ -3,6 +3,7 @@
 Pizzeria web app 
 
 [Demo](https://plankton-app-9lydl.ondigitalocean.app/)
+![](https://github.com/kutscheraa/PIZZERIA-WEB-APP/blob/main/preview.png)
 
 ## Main purpose
 
