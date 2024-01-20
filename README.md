@@ -1,8 +1,8 @@
 # NoSQL college class project
 
-Pizzeria web app
+Pizzeria web app 
 
-![alt text](bookstore_preview.png)
+[Demo](https://plankton-app-9lydl.ondigitalocean.app/)
 
 ## Main purpose
 
