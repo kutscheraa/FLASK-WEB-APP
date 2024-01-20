@@ -6,13 +6,14 @@ Pizzeria web app
 
 ## Main purpose
 
-Creating functional lightweight web-app to learn front-end/back-end.
+Creating functional lightweight web-app to learn nosql database systems, in my case MongoDB + Redis.
 
 ### Tech used:
-1) DigitalOcean
+1) DigitalOcean (hosting)
 2) Flask
 3) HTML/CSS,Bootstrap
-4) MongoDB + Redis for caching
-5) Docker
-6) Figma for UI design
+4) MongoDB for static data like names, adresses, prices.
+5) Redis for real-time data in admin panel, check out, cart.
+6) Bootstrap studio/Figma for design.
+7) Docker
 
