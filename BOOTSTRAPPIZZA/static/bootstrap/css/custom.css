@@ -1,0 +1,5 @@
+.bs-icon-circle {
+    display: inline-block;
+    background-image: url('/static/images/brands/icon.png');
+    background-size: cover;
+  }
