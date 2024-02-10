@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+  <div class="row justify-content-center">
+      <div class="col-lg-6">
+          <form class="rounded mb-4">
+              <div class="form-group">
+                  <label for="cardHolder">Card Holder</label>
+                  <input type="text" class="form-control" id="cardHolder">
+              </div>
+              <div class="form-group">
+                  <label for="cardNumber">Card Number</label>
+                  <input type="text" class="form-control" id="cardNumber">
+              </div>
+              <div class="form-group row">
+                  <div class="col-xs-3">
+                      <label for="expirationDateMM">MM</label>
+                      <input type="text" class="form-control" id="expirationDateMM">
+                  </div>
+                  <div class="col-xs-3">
+                      <label for="expirationDateYY">YY</label>
+                      <input type="text" class="form-control" id="expirationDateYY">
+                  </div>
+                  <div class="col-xs-3">
+                      <label for="cvc">CVC</label>
+                      <input type="text" class="form-control" id="cvc">
+                  </div>
+              </div>
+              <div class="form-group row">
+                  <div class="col-xs-6">
+                      <label for="product1">Product 1</label>
+                      <input type="text" class="form-control" id="product1" value="Pizza Margharita" disabled>
+                  </div>
+                  <div class="col-xs-6">
+                      <label for="product2">Product 2</label>
+                      <input type="text" class="form-control" id="product2" value="Pizza Peperoni" disabled>
+                  </div>
+              </div>
+              <div class="form-group row">
+                  <div class="col-xs-6">
+                      <label for="total">Total</label>
+                      <input type="text" class="form-control" id="total" value="$31" disabled>
+                  </div>
+              </div>
+              <div class="text-center mt-3"> <!-- Added mt-3 for top margin -->
+                  <a class="btn btn-primary shadow" href="/">Proceed</a>
+              </div>
+          </form>
+      </div>
+  </div>
+</div>
+{% endblock %}
