@@ -62,7 +62,7 @@ def checkout():
                     'timestamp': datetime.now()
                 })
             else:
-                flash('Chyba: Nepodařilo se získat informace o uživateli.', 'error')
+                flash('Chyba: Missing user info.', 'error')
         else:
             # Pro nepřihlášeného uživatele zpracovat údaje formuláře
             user_info = {
