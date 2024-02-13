@@ -9,7 +9,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key'
-app.config['MONGO_URI'] = 'mongodb+srv://kutscherabiz:551044@cluster0.mv0rtpy.mongodb.net/?retryWrites=true&w=majority'
+app.config['MONGO_URI'] = 'mongodb+srv://kutscherabiz:pw@cluster0.mv0rtpy.mongodb.net/?retryWrites=true&w=majority'
 
 login_manager = LoginManager()
 login_manager.init_app(app) # Inicializace LoginManager
