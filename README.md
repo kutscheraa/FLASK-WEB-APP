@@ -16,5 +16,4 @@ Creating functional lightweight web-app to learn nosql database systems, in my c
 4) MongoDB for static data like names, adresses, prices.
 5) Redis for real-time data in admin panel, check out, cart.
 6) Bootstrap studio/Figma for design.
-7) Docker
 
